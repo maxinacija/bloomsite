@@ -1,0 +1,220 @@
+.bannier {
+    background-image: url("navbarbg.jpeg") ;
+    height: 40em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navsty{
+    background-color: rgba(135, 207, 235, 0.589);
+}
+
+.navsty a:hover{
+    color: blanchedalmond;
+}
+
+.navsty a{
+    color: black;
+    font-size: 1.3em;
+}
+
+.log1{
+    width: 20%;
+}
+
+/*footer*/
+
+.footerchange{
+    background: url("38276.png");
+    height: 10em;
+}
+
+/*main*/
+
+/*cards*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+.snip1581 {
+  font-family: 'Poppins:400,700', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #e0d092;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1581 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1581 img {
+  width: auto;
+  height: 30em;
+  vertical-align: top;
+}
+.snip1581 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.snip1581 h3 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 3px 0;
+}
+.snip1581 .title1 {
+  font-weight: 700;
+}
+.snip1581 .title2 {
+  color: #a58e7c;
+  font-weight: 300;
+}
+.snip1581 .title3 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #ff6463;
+}
+.snip1581 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1581:hover img,
+.snip1581.hover img {
+ -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+div#cards{
+text-align: center;
+}
+
+/*pagination*/
+
+.pagination{
+    padding: 30px 0;
+    
+  }
+  
+  .pagination ul{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+  }
+  
+  .pagination a{
+    display: inline-block;
+    padding: 10px 18px;
+    color: #222;
+  }
+  .p4 a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    border: 3px solid #95ff87;
+  }
+  
+  .p4 .is-active:before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #95ff87;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    
+  }
+.container1{
+  width: 100%;
+ 
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+    
+
+/* ===========================
+   ====== Search Box ====== 
+   =========================== */
+
+   .search
+   {
+     border: 2px solid #FF6463;
+     overflow: auto;
+     border-radius: 5px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+   }
+   
+   .search input[type="text"]
+   {
+     border: 0px;
+     width: 67%;
+     padding: 10px 10px;
+   }
+   
+   .search input[type="text"]:focus
+   {
+     outline: 0;
+   }
+   
+   .search input[type="submit"]
+   {
+     border: 0px;
+     background: none;
+     background-color: #FF6463;
+     color: #fff;
+     float: right;
+     padding: 10px;
+     -border-radius-top-right: 5px;
+     -moz-border-radius-top-right: 5px;
+     -webkit-border-radius-top-right: 5px;
+     -border-radius-bottom-right: 5px;
+     -moz-border-radius-bottom-right: 5px;
+     -webkit-border-radius-bottom-right: 5px;
+           cursor:pointer;
+   }
+   
+   /* ===========================
+      ====== Medua Query for Search Box ====== 
+      =========================== */
+   
+   @media only screen and (min-width : 150px) and (max-width : 780px)
+   {
+     .search
+     {
+       width: 95%;
+       margin: 0 auto;
+     }
+   
+   }
+

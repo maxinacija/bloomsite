@@ -1,0 +1,35 @@
+.bannier {
+    background-image: url("navbarbg.jpeg") ;
+    height: 40em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navsty{
+    background-color: rgba(135, 207, 235, 0.589);
+}
+
+.navsty a:hover{
+    color: blanchedalmond;
+}
+
+.navsty a{
+    color: black;
+    font-size: 1.3em;
+}
+
+.phochange{
+    width: 70%;
+}
+
+.log1{
+    width: 20%;
+}
+
+.footerchange{
+    background: url("38276.png");
+    height: 10em;
+}
+

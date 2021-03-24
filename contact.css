@@ -1,0 +1,144 @@
+.bannier {
+    background-image: url("navbarbg.jpeg") ;
+    height: 60em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navsty{
+    background-color: rgba(135, 207, 235, 0.589);
+}
+
+.navsty a:hover{
+    color: blanchedalmond;
+}
+
+.navsty a{
+    color: black;
+    font-size: 1.3em;
+}
+
+.log1{
+    width: 20%;
+}
+
+/*footer*/
+
+.footerchange{
+    background: url("38276.png");
+    height: 10em;
+}
+
+/*main*/
+
+/* form animation starts */
+.form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    left: 0;
+    right: 0;
+    position: relative;
+    border-top: 5px solid  #f5ff7a;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 0px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: black;
+  }
+  .name:hover {
+    border-bottom: 5px solid #f5ff7a;
+    height: 4em;
+    width: 14em;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid  #f5ff7a;
+    height: 4em;
+    width: 17em;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid  #f5ff7a;
+    height: 12em;
+    width: 20em;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 10em;
+    color:black;
+    background-color:  #f5ff7a;
+    font-size: 1.5em;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 14em;
+    border-top: 5px solid  #f5ff7a;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+  
